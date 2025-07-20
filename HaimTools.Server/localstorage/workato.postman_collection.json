@@ -1,0 +1,206 @@
+﻿{
+	"info": {
+		"_postman_id": "fake-postman-id",
+		"name": "workato",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "fake-exporter-id"
+	},
+	"item": [
+		{
+			"name": "test",
+			"item": [
+				{
+					"name": "salary_calculator",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "tokenName",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "clientSecret",
+									"value": "FAKE_CLIENT_SECRET",
+									"type": "string"
+								},
+								{
+									"key": "clientId",
+									"value": "FAKE_CLIENT_ID",
+									"type": "string"
+								},
+								{
+									"key": "accessTokenUrl",
+									"value": "https://fake-url/oauth2/token",
+									"type": "string"
+								},
+								{
+									"key": "grant_type",
+									"value": "client_credentials",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"data\": {\r\n    \"field1\":22623,\r\n    \"field2\":2.25,\r\n    \"field3\":6\r\n  },\r\n  \"action\": \"fake_action\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://fake-url/fake-endpoint",
+							"protocol": "https",
+							"host": [
+								"fake-url"
+							],
+							"path": [
+								"fake-endpoint"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "economy_calculator",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "tokenName",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "clientSecret",
+									"value": "FAKE_CLIENT_SECRET",
+									"type": "string"
+								},
+								{
+									"key": "clientId",
+									"value": "FAKE_CLIENT_ID",
+									"type": "string"
+								},
+								{
+									"key": "accessTokenUrl",
+									"value": "https://fake-url/oauth2/token",
+									"type": "string"
+								},
+								{
+									"key": "grant_type",
+									"value": "client_credentials",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"data\": {\r\n    \"field1\":22623,\r\n    \"field2\":2.25,\r\n    \"field3\":6\r\n  },\r\n  \"action\": \"fake_action\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://fake-url/fake-endpoint",
+							"protocol": "https",
+							"host": [
+								"fake-url"
+							],
+							"path": [
+								"fake-endpoint"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Prod",
+			"item": [
+				{
+					"name": "salary_calculator",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "clientSecret",
+									"value": "FAKE_CLIENT_SECRET",
+									"type": "string"
+								},
+								{
+									"key": "accessTokenUrl",
+									"value": "https://fake-url/oauth2/token",
+									"type": "string"
+								},
+								{
+									"key": "clientId",
+									"value": "FAKE_CLIENT_ID",
+									"type": "string"
+								},
+								{
+									"key": "tokenName",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "grant_type",
+									"value": "client_credentials",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"data\": {\r\n    \"field1\":22623,\r\n    \"field2\":2.25,\r\n    \"field3\":6\r\n  },\r\n  \"action\": \"fake_action\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://fake-url/fake-endpoint",
+							"protocol": "https",
+							"host": [
+								"fake-url"
+							],
+							"path": [
+								"fake-endpoint"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

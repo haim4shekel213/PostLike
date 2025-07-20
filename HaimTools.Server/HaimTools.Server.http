@@ -1,0 +1,6 @@
+@HaimTools.Server_HostAddress = http://localhost:5196
+
+GET {{HaimTools.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

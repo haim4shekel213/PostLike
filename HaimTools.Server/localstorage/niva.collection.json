@@ -1,0 +1,511 @@
+﻿{
+  "info": {
+    "_postman_id": "fake-postman-id",
+    "name": "niva",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "fake-exporter-id"
+  },
+  "item": [
+    {
+      "name": "test",
+      "item": [
+        {
+          "name": "PtichtPolaChdshaBt_t_batch Test",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "fake-token",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"field1\": 511,\r\n    \"field2\": 9422,\r\n    \"field3\": 2,\r\n    \"field4\": \"fake-id\",\r\n    \"field5\": 240,\r\n    \"field6\": 0,\r\n    \"field7\": \"true\",\r\n    \"field8\": \"true\",\r\n    \"field9\": \"fake-comment\",\r\n    \"field10\": 0,\r\n    \"field11\": 6,\r\n    \"field12\": 86,\r\n    \"field13\": 0,\r\n    \"field14\": 0\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://fake-url/fake-api/fake-route",
+              "protocol": "http",
+              "host": [
+                "fake-url"
+              ],
+              "path": [
+                "fake-api",
+                "fake-route"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "niva API sgirat tt 800",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"field1\":\"fake-guid\",\r\n    \"field2\":false\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://fake-url/fake-api/fake-route",
+              "protocol": "http",
+              "host": [
+                "fake-url"
+              ],
+              "path": [
+                "fake-api",
+                "fake-route"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "niva API sgirat tt 800 Copy",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"field1\":\"fake-guid\",\r\n    \"field2\":false,\r\n    \"field3\": \"\\\\fake-path\\\\fake-folder\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://fake-url/fake-api/fake-route",
+              "protocol": "http",
+              "host": [
+                "fake-url"
+              ],
+              "path": [
+                "fake-api",
+                "fake-route"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "RunProductionSnapshot2PnsiaPolisot",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"field1\":\"fake-guid\",\r\n    \"field2\":false\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://fake-url/fake-api/fake-route",
+              "protocol": "http",
+              "host": [
+                "fake-url"
+              ],
+              "path": [
+                "fake-api",
+                "fake-route"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "niva API sgirat tt 800 local",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"field1\":\"fake-guid\",\r\n    \"field2\":false\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:1083/fake-api/fake-route",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "1083",
+              "path": [
+                "fake-api",
+                "fake-route"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "\u05db\u05d3\u05d0\u05d9\u05dd-\u05dc\u05d5\u05e7\u05dc\u05d9",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"field1\":\"fake-guid\",\r\n    \"field2\":false\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:1083/fake-api/fake-route",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "1083",
+              "path": [
+                "fake-api",
+                "fake-route"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "niva API sgirat tt 800 local Copy",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"field1\":\"fake-guid\",\r\n    \"field2\":false\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:1083/fake-api/fake-route",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "1083",
+              "path": [
+                "fake-api",
+                "fake-route"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "RunAabraZmniNtoniPolisotLniba local",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"field1\":\"fake-date\",\"field2\":\"fake-guid\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:1083/fake-api/fake-route",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "1083",
+              "path": [
+                "fake-api",
+                "fake-route"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "niva API RunProductionSnapshot2PnsiaPolisot800 local",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"field1\":\"fake-guid\",\"field2\":\"fake-date\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:1083/fake-api/fake-route",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "1083",
+              "path": [
+                "fake-api",
+                "fake-route"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"field1\":99\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://fake-url/fake-api/fake-route",
+              "protocol": "http",
+              "host": [
+                "fake-url"
+              ],
+              "path": [
+                "fake-api",
+                "fake-route"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "prod",
+      "item": [
+        {
+          "name": "niva API sgirat tt 800 Copy",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"field1\":\"fake-guid\",\r\n    \"field2\":false,\r\n    \"field3\": \"\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://fake-url/fake-api/fake-route",
+              "protocol": "http",
+              "host": [
+                "fake-url"
+              ],
+              "path": [
+                "fake-api",
+                "fake-route"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "niva API sgirat tt 800 Copy 2",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"field1\":\"fake-guid\",\r\n    \"field2\":false,\r\n    \"field3\": \"\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://fake-url/fake-api/fake-route",
+              "protocol": "http",
+              "host": [
+                "fake-url"
+              ],
+              "path": [
+                "fake-api",
+                "fake-route"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "dev",
+      "item": [
+        {
+          "name": "CheckPaymenForMarketerPensia",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"field1\":\"fake-guid\",\r\n    \"field2\":\"\\\\fake-path\\\\fake-folder\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:1083/fake-api/fake-route",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "1083",
+              "path": [
+                "fake-api",
+                "fake-route"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "PtichtPolaChdshaBt_t_batch",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "fake-token",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "\r\n{\r\n    \"field1\": 511,\r\n    \"field2\": 6463,\r\n    \"field3\": 1,\r\n    \"field4\": \"fake-id\",\r\n    \"field5\": 240,\r\n    \"field6\": 0,\r\n    \"field7\": \"true\",\r\n    \"field8\": \"true\",\r\n    \"field9\": \"fake-comment\",\r\n    \"field10\": 0,\r\n    \"field11\": 6,\r\n    \"field12\": 86,\r\n    \"field13\": 671,\r\n    \"field14\": 671\r\n}\r\n",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:1083/fake-api/fake-route",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "1083",
+              "path": [
+                "fake-api",
+                "fake-route"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "runActionNiva",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "fake-token",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"field1\":99\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:1083/fake-api/fake-route",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "1083",
+              "path": [
+                "fake-api",
+                "fake-route"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
