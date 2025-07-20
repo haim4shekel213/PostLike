@@ -1,0 +1,187 @@
+{
+  "info": {
+    "name": "Sample API Collection",
+    "description": "A sample collection demonstrating various API request types",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Basic Requests",
+      "item": [
+        {
+          "name": "Get Users",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/users"
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Create User",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/users"
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"username\": \"johndoe\"\n}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Authentication Examples",
+      "item": [
+        {
+          "name": "Bearer Token Example",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "https://api.github.com/user"
+            },
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "your-github-token-here",
+                  "type": "string"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Basic Auth Example",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "https://httpbin.org/basic-auth/user/pass"
+            },
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "user",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "pass",
+                  "type": "string"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "OAuth 2.0 Client Credentials",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "https://api.example.com/protected-resource"
+            },
+            "auth": {
+              "type": "oauth2",
+              "oauth2": {
+                "accessTokenUrl": "https://api.example.com/oauth/token",
+                "authUrl": "https://api.example.com/oauth/authorize",
+                "clientId": "your-client-id",
+                "clientSecret": "your-client-secret",
+                "grantType": "client_credentials",
+                "scope": "read write"
+              }
+            }
+          }
+        },
+        {
+          "name": "API Key Example",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "https://api.openweathermap.org/data/2.5/weather?q=London"
+            },
+            "auth": {
+              "type": "apikey",
+              "apikey": [
+                {
+                  "key": "appid",
+                  "value": "your-api-key-here",
+                  "in": "query"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "HTTP Methods Demo",
+      "item": [
+        {
+          "name": "PUT Request",
+          "request": {
+            "method": "PUT",
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts/1"
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": 1,\n  \"title\": \"Updated Title\",\n  \"body\": \"Updated body content\",\n  \"userId\": 1\n}"
+            }
+          }
+        },
+        {
+          "name": "DELETE Request",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts/1"
+            }
+          }
+        },
+        {
+          "name": "PATCH Request",
+          "request": {
+            "method": "PATCH",
+            "url": {
+              "raw": "https://jsonplaceholder.typicode.com/posts/1"
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Patched Title\"\n}"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
